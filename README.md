@@ -4,5 +4,5 @@ For this project, we had three primary goals in mind. First was to increase the 
 #### Data Understanding
 The data we utilized in this project is called, “MovieLens 20M Dataset”, which was acquired from Kaggle. The dataset contained information from January 09, 1995 to March 31, 2015, hence the dataset was large. In fact, there are about 138,493 total users with 20,000,263 ratings. In addition to that, there are about 27,262 different movies. Both the movies and the ratings datasets were clean for the most part. As a matter of fact, there weren’t any null values present in any of the datasets, which was a good thing. We had about six different features in the datasets and they are: UserId, MovieID, Rating, TimeStamp, Title, and Genres.
 #### Matrix Factorization Algorithms
-The general idea behind this is to use the combination of users and movies. As compare to collaborative filtering and content-based filtering the SVD model provides less error rate if we check (Mean Absolute Error (mae), Root Mean Squared Error (rmse) and Mean Squared Error (mse))
+The general idea behind this is to use the combination of users and movies. As compare to collaborative filtering and content-based filtering the SVD (singular value decomposition) model provides less error rate if we check (Mean Absolute Error (mae), Root Mean Squared Error (rmse) and Mean Squared Error (mse))
 
